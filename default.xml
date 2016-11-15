@@ -8,6 +8,6 @@
     <project remote="oe" revision="refs/heads/krogoth" name="meta-openembedded" path="sources/meta-openembedded"/>
     
     <remote fetch="git@github.com:meta-qt5" name="qt5" />
-    <project remote="qt5" revision="refs/heads/morty" name="meta-qt5.git" path="sources/meta-qt5"/>
+    <project remote="qt5" revision="refs/heads/morty" name="meta-qt5" path="sources/meta-qt5"/>
     
 </manifest>
