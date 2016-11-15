@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <default sync-j="2"/>
-    <remote fetch="git://git.yoctoproject.org/poky.git" name="poky-krogoth" />
+    <remote fetch="git://git.yoctoproject.org/poky.git" name="poky-krogoth" revision="refs/heads/krogoth" />
 </manifest>
