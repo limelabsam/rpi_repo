@@ -15,6 +15,6 @@
     <project remote="qt5" revision="morty" name="meta-qt5" path="sources/meta-qt5"/>
     <project remote="jumpnow" revision="krogoth" name="meta-rpi" path="sources/meta-rpi"/>
     <project remote="limelab" revision="master" name="meta-update" path="sources/meta-update" />
-    <project remote="limelabsam" revision="master" name="rpi_default_config" path="." />
+    <project remote="limelabsam" revision="master" name="rpi_default_config" path="" />
     
 </manifest>
