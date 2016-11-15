@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <default sync-j="2"/>
+    
     <remote fetch="git://git.yoctoproject.org" name="poky-krogoth" />
     <project remote="poky-krogoth" revision="krogoth" name="poky" path="sources"/>
     <project remote="poky-krogoth" revision="krogoth" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
@@ -16,6 +17,6 @@
     <project remote="jumpnow" revision="krogoth" name="meta-rpi" path="sources/meta-rpi"/>
     
     <remote fetch="ssh://git@github.com/PCHLimeLab" name="limelab"/>
-    <project remote="limelab" revision="master" name="meta-update" path="sources/meta-update"/>
+    <project remote="limelab" name="meta-update" path="sources/meta-update"  revision="master" />
     
 </manifest>
