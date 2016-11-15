@@ -2,5 +2,5 @@
 <manifest>
     <default sync-j="2"/>
     <remote fetch="git://git.yoctoproject.org/poky.git" name="poky-krogoth" />
-    <project remote="poky-krogoth" revision="refs/heads/krogoth" name="poky" path="sources/poky"/>
+    <project remote="poky-krogoth" revision="refs/heads/krogoth" name="krogoth" path="sources/poky"/>
 </manifest>
