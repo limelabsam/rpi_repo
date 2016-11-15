@@ -15,7 +15,7 @@
     <remote fetch="git://github.com/jumpnow" name="jumpnow" />
     <project remote="jumpnow" revision="krogoth" name="meta-rpi" path="sources/meta-rpi"/>
     
-    <remote fetch="git://github.com/limelabsam" name="ll" />
-    <project remote="ll" revision="master" name="meta-update" path="sources/meta-update"/>
+    <remote fetch="ssh://git@github.com/PCHLimeLab" name="limelab"/>
+    <project remote="limellab" revision="master" name="meta-update" path="sources/meta-update"/>
     
 </manifest>
