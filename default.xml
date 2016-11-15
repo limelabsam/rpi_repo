@@ -7,7 +7,7 @@
     
     
     <remote fetch="git://git.openembedded.org" name="oe" />
-    <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded"/>
+    <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources"/>
     
     <remote fetch="git://github.com/meta-qt5" name="qt5" />
     <project remote="qt5" revision="morty" name="meta-qt5" path="sources/meta-qt5"/>
