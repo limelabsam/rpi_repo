@@ -8,9 +8,9 @@
     <remote fetch="git://github.com/jumpnow" name="jumpnow" />
     <remote fetch="ssh://git@github.com/PCHLimeLab" name="limelab"/>
     
-    <project remote="poky-krogoth" revision="krogoth" name="poky" path="sources"/>
+    <project remote="poky-krogoth" revision="krogoth" name="poky" path="sources/poky"/>
     <project remote="poky-krogoth" revision="krogoth" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
-<!--     <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources"/> -->
+    <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources"/>
     <project remote="qt5" revision="morty" name="meta-qt5" path="sources/meta-qt5"/>
     <project remote="jumpnow" revision="krogoth" name="meta-rpi" path="sources/meta-rpi"/>
     <project remote="limelab" name="meta-update" path="sources/meta-update" />
