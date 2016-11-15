@@ -2,7 +2,7 @@
 <manifest>
     <default sync-j="2"/>
     <remote fetch="git://git.yoctoproject.org" name="poky-krogoth" />
-    <project remote="poky-krogoth" revision="krogoth" name="poky" path="sources/poky"/>
+    <project remote="poky-krogoth" revision="krogoth" name="poky" path="sources"/>
     <project remote="poky-krogoth" revision="krogoth" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
     
     
