@@ -16,5 +16,6 @@
     <project remote="jumpnow" revision="krogoth" name="meta-rpi" path="sources/meta-rpi"/>
     <project remote="limelab" revision="master" name="meta-update" path="sources/meta-update" />
     <project remote="limelabsam" revision="master" name="rpi_default_config" path="build" />
+    <project remote="oe" revision="master" name="openembedded-core" path="sources/oe-core" />
     
 </manifest>
